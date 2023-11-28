@@ -1,0 +1,69 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>UTS Web Programming</title>
+    </head>
+    <body class="bg">
+        <section>
+        <h1 class="header">Add New Episode</h1>
+        <nav>
+            <a class="active" href="#Main">Main</a></li>
+            <a href="#Options">More options</a></li>
+        </nav>
+        <span class="target"></span>
+        <p class="menuText">Podcast File (Free Version)</p>
+        <article class="rectangle">
+            <img class="image" src="img/Buah kiwi.png" alt="podcast file" height="120px" width="150px">
+            <input class="browse" type="search" id="search" name="seacrh" value="Browse">
+        </article>
+        <p class="menuText">Podcast File (Free Version)</p>
+        <article class="rectangle">
+            <img class="image" src="img/Mangga.png" alt="podcast file" height="120px" width="150px">
+            <input class="browse" type="search" id="search" name="seacrh" value="Browse">
+        </article>
+        <p class="menuText">Title *</p>
+        <article>
+            <input class="title" placeholder="Someing to write" type="text" id="title" name="title">
+            <p class="link">https://player.sound.fm/cool-pod</p>
+            <button class="edit"><i class="fa fa-pencil-square-o"></i> Edit</button>
+        </article>
+        <article>
+            <p class="menuText">Summary</p>
+            <input class="summary" placeholder="Text" type="text" id="text" name="text">
+        </article>
+        <article class="Episode">
+            <p class="menuText">Episode No.</p>
+            <input class="episode" placeholder="-" type="number" id="episode" name="episode">
+        </article>
+        <article class="Season">
+            <p class="menuText">Season No.</p>
+            <input class="season" placeholder="-" type="number" id="season" name="season">
+        </article>
+        <article class="publish">
+            <p class="menuText">Publish Date</p>
+            <form>
+                <input class="date" type="date" placeholder="2019/11/13" id="date" name="date">
+                <input class="date" type="time" name="time" id="time">
+                <div class="btn-group">
+                    <button>Am</button>
+                    <button>Pm</button>
+                </div>
+            </form>
+        </article>
+        <form class="create">
+            <input type="checkbox" name="explicit content" id="explicit content" value="explicit content">
+            <label for="explicit content">Explicit Content?</label>
+            <input type="checkbox" name="publish" id="publish" value="publish">
+            <label for="publish">Publish</label>
+            <input class="new" type="submit" name="new" id="new" value="Create Draft">
+            <input class="draft" type="submit" name="draft" id="draft" value="Create New Episode">
+        </form>
+    </section>
+    </body>
+    <footer>
+
+    </footer>
+</html>
